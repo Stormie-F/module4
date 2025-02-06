@@ -1,0 +1,35 @@
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+background: url("../images/skull.png");
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+h1 {
+color: white;
+background-color: purple; 
+border-style: groove;
+
+}
+
+p {
+color: black;
+background-color: LightGrey;
+/* I assume in the future we will learn how to control the opacity of the background without affecting the text I wanted my text solid so I couldn't use transparency here like I would have preferred */
+}
+
+table, th, td {
+border-bottom: 1px solid black;
+background-color: LightGrey;
+}
+
+th {
+background-color: purple;
+color: white;
+/* I wasn't sure if this should go with the above table styling but this made it work */
+}
+
+ul {
+list-style-image: url("../images/tinystone.png");
+}
